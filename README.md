@@ -8,7 +8,7 @@ IndyMill is an open source DIY CNC machine that is mostly (and hopefully soon wi
 
 ***
 
-### You can find more info at Indystry.cc
+### You can find more info at [Indystry.cc](https://indystry.cc/)
 
 ***
 
@@ -22,7 +22,7 @@ You can also find more information on my website: [Indystry.cc](https://indystry
 ## Parts
 
 You can find parts list in PDF or XLSX above but you can also find it here:
-  - At indystry.cc/indymill you can find a full table with all needed parts
+  - At [indystry.cc/indymill](https://indystry.cc/indymill) you can find a full table with all needed parts
   - [Google Drive Parts List](https://docs.google.com/spreadsheets/d/12oHk9QJb_xA03L3f4UTsMpm9c1XGWciNTpjuxPadvEA/edit#gid=0) here you can find an online parts list 
  
 ## Videos
