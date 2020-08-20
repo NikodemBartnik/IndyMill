@@ -5,14 +5,13 @@ IndyMill is an open source DIY CNC machine that is mostly (and hopefully soon wi
   - Aluminium profiles (2080 and 2040)
   - Compatible with Nema17 and Nema23 on X and Y axis
   - Made with ball screws, linear rails and 6mm steel plates to ensure rigidity
- #
- ***
-#
-### You can find more info at Indystry.cc
-#
-#
+
 ***
-#
+
+### You can find more info at Indystry.cc
+
+***
+
 ## Open Source
 This machine is open source so above you can find all of the files that you need to build it. You can also check out videos below to see the build process. As for now machine was tested with various kinds of wood, MDF, acrylic and Aluminium. It is able to machine all of those materials even with small 500W spindle.
 You can also find more information on my website: [Indystry.cc](https://indystry.cc/indymill/)
@@ -37,9 +36,6 @@ But if you would like to get a PDF instruction that simplifies the build process
 
 ### https://gum.co/indymill
 
-
-#
-#
 
 
 ### Todos
