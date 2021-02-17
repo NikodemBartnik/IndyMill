@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTVlY2M3" projecturn="a.cGVyc29uYWw6dWUyOTQ1MGNhIzIwMTUxMDAxMTc3NTg0ODE" f3durn="urn:adsk.wipprod:dm.lineage:imIz-XI3STe14i4ZA2mIJQ" pcbguid="5a41f7d2-153f-4675-94ec-d0aa77b1afd1" lastpulledtime="" lastsyncedchangeguid="178d8192-3e9e-a262-734b-2777a9755d98"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTVlY2M3" projecturn="a.cGVyc29uYWw6dWUyOTQ1MGNhIzIwMTUxMDAxMTc3NTg0ODE" f3durn="urn:adsk.wipprod:dm.lineage:imIz-XI3STe14i4ZA2mIJQ" pcbguid="5a41f7d2-153f-4675-94ec-d0aa77b1afd1" lastpulledtime="" lastsyncedchangeguid="24f6117a-ca31-6ca8-8376-37b6e06dccf4"/>
 <plain>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="85.09" width="0.1524" layer="20"/>
 <wire x1="39.37" y1="89.535" x2="99.06" y2="89.535" width="0.1524" layer="20"/>
@@ -196,8 +196,8 @@ S</text>
 <text x="48.895" y="22.86" size="1.778" layer="25" rot="R180">5V</text>
 <text x="88.9" y="22.86" size="1.778" layer="25" rot="R180">START</text>
 <text x="99.695" y="22.86" size="1.778" layer="25" rot="R180">HOLD</text>
-<text x="56.515" y="31.115" size="2.54" layer="25" rot="R90">INDYSHIELD V1</text>
-<text x="59.69" y="31.115" size="2.54" layer="25" rot="R90">29.03.2020</text>
+<text x="56.515" y="31.115" size="2.54" layer="25" rot="R90">INDYSHIELD V2</text>
+<text x="59.69" y="31.115" size="2.54" layer="25" rot="R90">26.11.2020</text>
 <text x="62.23" y="31.115" size="1.4224" layer="25" rot="R90">NIKODEM BARTNIK</text>
 <text x="85.09" y="50.8" size="0.8128" layer="25" rot="R90">GND</text>
 <text x="85.09" y="39.37" size="0.8128" layer="25" rot="R90">GND</text>
@@ -216,6 +216,12 @@ S</text>
 <text x="51.435" y="63.5" size="0.8128" layer="25">GND SCL SDA  5V </text>
 <text x="43.815" y="30.48" size="0.8128" layer="25" rot="R270">GND</text>
 <text x="43.815" y="25.4" size="0.8128" layer="25" rot="R270">+12V</text>
+<text x="65.405" y="64.77" size="2.54" layer="25">Z   Y   X</text>
+<wire x1="77.47" y1="67.945" x2="81.915" y2="67.945" width="0.508" layer="25"/>
+<wire x1="81.915" y1="67.945" x2="83.82" y2="69.85" width="0.508" layer="25"/>
+<wire x1="71.755" y1="67.945" x2="71.755" y2="70.485" width="0.508" layer="25"/>
+<wire x1="66.675" y1="67.945" x2="61.595" y2="67.945" width="0.508" layer="25"/>
+<wire x1="61.595" y1="67.945" x2="59.69" y2="69.85" width="0.508" layer="25"/>
 </plain>
 <libraries>
 <library name="con-wago-500" urn="urn:adsk.eagle:library:195">
@@ -988,17 +994,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="LIM_Z">
 <contactref element="LZ" pad="2"/>
-<wire x1="38.735" y1="69.89" x2="68.62" y2="69.89" width="0.508" layer="1"/>
-<wire x1="68.62" y1="69.89" x2="70.866" y2="72.136" width="0.508" layer="1"/>
+<wire x1="38.735" y1="69.89" x2="66.715" y2="69.89" width="0.508" layer="1"/>
+<wire x1="66.715" y1="69.89" x2="68.2625" y2="71.4375" width="0.508" layer="1"/>
 <contactref element="U1" pad="D12"/>
-<wire x1="70.866" y1="72.136" x2="68.326" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="68.2625" y1="71.4375" x2="68.326" y2="71.501" width="0.508" layer="1"/>
+<wire x1="68.326" y1="71.501" x2="68.326" y2="73.66" width="0.508" layer="1"/>
 </signal>
 <signal name="SPIN_E">
 <contactref element="SPIN_E" pad="2"/>
 <wire x1="93.98" y1="36.155" x2="90.17" y2="39.965" width="0.508" layer="16"/>
-<wire x1="90.17" y1="39.965" x2="90.17" y2="51.816" width="0.508" layer="16"/>
 <contactref element="U1" pad="D11"/>
-<wire x1="90.17" y1="51.816" x2="70.866" y2="73.66" width="0" layer="19" extent="16-16"/>
+<wire x1="70.866" y1="72.644" x2="70.866" y2="73.66" width="0.508" layer="16"/>
+<wire x1="90.17" y1="39.965" x2="90.17" y2="53.34" width="0.508" layer="16"/>
+<wire x1="90.17" y1="53.34" x2="70.866" y2="72.644" width="0.508" layer="16"/>
 </signal>
 <signal name="SPIN_DIR">
 <contactref element="U1" pad="D13"/>

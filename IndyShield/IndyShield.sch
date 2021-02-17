@@ -1154,8 +1154,8 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="87.757" y="40.64" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="92.329" y="38.1" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="SUPPLY10" gate="GND" x="96.52" y="22.86" smashed="yes">
-<attribute name="VALUE" x="94.615" y="19.685" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="GND" x="96.52" y="20.32" smashed="yes">
+<attribute name="VALUE" x="94.615" y="17.145" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="1" x="91.44" y="25.4" smashed="yes" rot="R180">
 <attribute name="VALUE" x="93.98" y="30.48" size="1.778" layer="96" rot="R270"/>
@@ -1278,7 +1278,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="LY1" gate="-1" pin="KL"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
-<wire x1="96.52" y1="33.02" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="33.02" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="1" pin="1"/>
