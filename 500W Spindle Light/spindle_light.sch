@@ -305,12 +305,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="LED6" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
 <part name="LED7" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
 <part name="LED8" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
-<part name="LED9" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED10" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
-<part name="LED11" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
-<part name="LED12" library="NikodemBartnik" deviceset="RF-45HA50DS-EE-Y" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="12V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
@@ -346,23 +342,11 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="LED8" gate="G$1" x="68.58" y="22.86" smashed="yes">
 <attribute name="NAME" x="64.77" y="26.416" size="1.016" layer="95"/>
 </instance>
-<instance part="LED9" gate="G$1" x="15.24" y="33.02" smashed="yes">
-<attribute name="NAME" x="11.43" y="36.576" size="1.016" layer="95"/>
-</instance>
-<instance part="P+1" gate="1" x="78.74" y="43.18" smashed="yes">
-<attribute name="VALUE" x="76.2" y="38.1" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="1" x="78.74" y="35.56" smashed="yes">
+<attribute name="VALUE" x="76.2" y="30.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND1" gate="1" x="2.54" y="2.54" smashed="yes">
 <attribute name="VALUE" x="0" y="0" size="1.778" layer="96"/>
-</instance>
-<instance part="LED10" gate="G$1" x="33.02" y="33.02" smashed="yes">
-<attribute name="NAME" x="29.21" y="36.576" size="1.016" layer="95"/>
-</instance>
-<instance part="LED11" gate="G$1" x="50.8" y="33.02" smashed="yes">
-<attribute name="NAME" x="46.99" y="36.576" size="1.016" layer="95"/>
-</instance>
-<instance part="LED12" gate="G$1" x="68.58" y="33.02" smashed="yes">
-<attribute name="NAME" x="64.77" y="36.576" size="1.016" layer="95"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="-81.28" y="-68.58" smashed="yes">
 <attribute name="DRAWING_NAME" x="135.89" y="-53.34" size="2.54" layer="94"/>
@@ -393,14 +377,10 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.54" y1="5.08" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="12.7" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="P$2"/>
-<wire x1="2.54" y1="22.86" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
 <junction x="2.54" y="12.7"/>
-<pinref part="LED9" gate="G$1" pin="P$2"/>
-<wire x1="7.62" y1="33.02" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="P$2"/>
 <wire x1="7.62" y1="22.86" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<junction x="2.54" y="22.86"/>
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="1"/>
@@ -413,11 +393,7 @@ DIN A4, landscape with location and doc. field</description>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="78.74" y1="12.7" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="LED12" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="22.86" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="33.02" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<junction x="78.74" y="33.02"/>
 <pinref part="LED8" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="78.74" y="22.86"/>
@@ -429,13 +405,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="124.46" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="40.64" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="LED9" gate="G$1" pin="P$1"/>
-<pinref part="LED10" gate="G$1" pin="P$2"/>
-<wire x1="20.32" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -464,20 +433,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="LED6" gate="G$1" pin="P$1"/>
 <pinref part="LED7" gate="G$1" pin="P$2"/>
 <wire x1="38.1" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LED10" gate="G$1" pin="P$1"/>
-<pinref part="LED11" gate="G$1" pin="P$2"/>
-<wire x1="38.1" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED11" gate="G$1" pin="P$1"/>
-<pinref part="LED12" gate="G$1" pin="P$2"/>
-<wire x1="55.88" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
