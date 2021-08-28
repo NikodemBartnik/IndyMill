@@ -55,5 +55,4 @@ But if you would like to get a PDF instruction that simplifies the build process
 ### Todos
 
  - Create a plate for 1.5kW spindle and test IndyMill with such spindle
- - Improve 3D printed files design
 
