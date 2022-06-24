@@ -1,13 +1,13 @@
 ![IndyMill image](https://indystry.cc/wp-content/uploads/2021/10/1.2.jpg)
 
 IndyMill is an open source DIY CNC machine that is mostly made out of metal. It was designed with simplicity and minimalism in mind! 
-This project is not aiming to be the most heavy duty CNC machine out there, it is meant to be easy and inexpensive to build so that anyone can get a hand on percise CNC machining in many materials including metal.
+This project is not aiming to be the most heavy duty CNC machine out there, it is meant to be easy and inexpensive to build so that anyone can get a hand on precise CNC machining in many materials including metal.
 Designed by [Nikodem Bartnik](https://www.youtube.com/nikodembartnik). 
 
 Here are just some of the features of this machine:
 
   - Aluminium profiles (2080 and 2040)
-  - Compatible with Nema17 and Nema23 on X and Y axis (without redesgning a plate Z axis is only compatible with Nema23)
+  - Compatible with Nema17 and Nema23 on X and Y axis (without redesigning a plate Z axis is only compatible with Nema23)
   - Made with ball screws, linear rails and 6mm steel plates to ensure rigidity
   - Can be easily scaled up, you just need to use longer profiles, ballscrews and linear rails
 
