@@ -18,7 +18,7 @@ Here are just some of the features of this machine:
 ***
 
 ## Open Source
-This machine is open source so above you can find all of the files that you need to build it. You can also check out videos below to see the build process. As for now machine was tested with various kinds of wood, MDF, acrylic and Aluminium. It is able to machine all of those materials even with small 500W spindle.
+This machine is open source, so above you can find all of the files that you need to build it. You can also check out videos below to see the build process. As for now, the machine was tested with various kinds of wood, MDF, acrylic and aluminium. It is able to machine all of those materials even with a small 500W spindle.
 You can also find more information on my website: [Indystry.cc](https://indystry.cc/indymill/)
 
 
@@ -44,8 +44,8 @@ You can find parts list in PDF or XLSX above but you can also find it here:
 
 
 ## Build Instruction
-This project is open source so you can find all the files that you need to build it above for free. You can easily build it just by taking a look at some images on my website and my videos.
-But if you would like to get a PDF instruction that simplifies the build process, you can easily print it put it on a smartphone or computer, you can get one through link below and at the same time support my projects! You don't need it but it may help a little :)
+This project is open source, so you can find all the files that you need to build it above for free. You can easily build it just by taking a look at some images on my website and my videos.
+But if you would like to get a PDF instruction that simplifies the build process, you can easily print it or put it on a smartphone or computer, you can get one through link below and at the same time support my projects! You don't need it but it may help a little :)
 
 ### https://gum.co/indymill
 
