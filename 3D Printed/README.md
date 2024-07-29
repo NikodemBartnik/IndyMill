@@ -8,7 +8,7 @@ You can also buy 3D printed parts in my [store](https://indystry.cc/store/).
 | [6000 holder](6000%20holder.stl) | ![6000 holder](../Docs/Diagrams/6000%20holder.jpg) | 3 |
 | [Ball screw block X axis flap](Ball%20screw%20block%20X%20axis%20flap.stl) | ![Ball screw block X axis flap](../Docs/Diagrams/Ball%20screw%20block%20X%20axis%20flap.jpg) | 1
 | [Ball screw block X axis](Ball%20screw%20block%20X%20axis.stl) | ![Ball screw block X axis](../Docs/Diagrams/Ball%20screw%20block%20X%20axis.jpg) | 1
-| [Ball screw block Y axis flap](Ball%20screw%20block%20X%20axis%20flap.stl) | ![Ball screw block Y axis flap](../Docs/Diagrams/Ball%20screw%20block%20Y%20axis.jpg) | 2
+| [Ball screw block Y axis flap](Ball%20screw%20block%20X%20axis%20flap.stl) | ![Ball screw block Y axis flap](../Docs/Diagrams/Ball%20screw%20block%20Y%20axis%20flap.jpg) | 2
 | [Ball screw block Y axis](Ball%20screw%20block%20Y%20axis.stl) | ![Ball screw block Y axis](../Docs/Diagrams/Ball%20screw%20block%20Y%20axis.jpg) | 2
 | [Limit switch holder](Limit%20switch%20holder.stl) | ![Limit switch holder](../Docs/Diagrams/Limit%20switch%20holder.jpg) | 3
 | [X axis nut holder](X%20axis%20nut%20holder.stl) | ![X axis nut holder](../Docs/Diagrams/X%20axis%20nut%20holder.jpg) | 1
